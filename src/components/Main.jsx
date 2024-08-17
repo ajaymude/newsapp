@@ -32,7 +32,7 @@ const Main = ({ search }) => {
             <div className='row'>
                 {
 
-                    news.map((item) => (
+                    news?.map((item) => (
 
                         <div className=" col-lg-4 col-md-6 news-column">
                             <div className='card'>
